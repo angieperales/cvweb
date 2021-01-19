@@ -1,0 +1,30 @@
+main{
+    position: relative;
+ background-color: rgb(212, 212, 212);
+}
+.content-one{
+    width: 100%;
+}
+.content-portada{
+    background-position: center center;
+    background-image: url("../img/fondoheadere.jpg");
+    background-size: cover;
+    height: 100vh;
+    align-items: center;
+    display: flex; 
+    opacity: 1.6;
+}
+
+.content-item1{
+    position: relative;
+   }
+   @media screen and (max-width:1500px){
+    .content-portada{
+    background-repeat: no-repeat;
+    }
+   }
+   @media screen and (max-width:800px){
+    .content-item1{
+    width: 100%;
+    }
+   }
